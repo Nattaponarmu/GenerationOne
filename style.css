@@ -1,9 +1,9 @@
 .header1{
-    background-image: url("../port/header.jpg");
+    background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     height: 350px;
     width: 100%;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -25,6 +25,12 @@
 .top_nav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.top_nav {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
 }
 
 .container{
